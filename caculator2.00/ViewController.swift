@@ -202,10 +202,14 @@ class ViewController: UIViewController {
                 plus = 1
             }
         }    }
+    @IBAction func Dot(_ sender: Any) {
+        result.text = result.text! + "."
+        judge = 1
+    }
     @IBAction func buttonDivied(_ sender: Any) {
         if plus == 1
         {
-            let a = Double(result.text!)!
+            let a = Double(result_1.text!)!
             let b = Double(result.text!)!
             let c = a / b
             result_1.text = String(c)
@@ -230,11 +234,14 @@ class ViewController: UIViewController {
             }
         }
     }
-    @IBAction func buttonPercent(_ sender: Any) {
+    @IBAction func Bottonpercent(_ sender: Any) {
         let count = Double(result.text!)!
         let count2 = count*0.01
         result.text = String(count2)
-        re = 0    }
+        re = 0
+        
+    }
+    
     @IBAction func buttonResult(_ sender: Any) {
         var d:Double
         var c:Double
