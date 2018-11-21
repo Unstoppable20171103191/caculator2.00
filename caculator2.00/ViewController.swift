@@ -116,6 +116,14 @@ class ViewController: UIViewController {
         }
         
     }
+    @IBAction func AC(_ sender: Any) {
+        result.text = ""
+        re = 0
+        
+        
+        
+        
+    }
     @IBAction func buttonAdd(_ sender: Any) {
         if plus==1{
             let a = Double(result_1.text!)!
