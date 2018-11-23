@@ -119,6 +119,7 @@ class ViewController: UIViewController {
     @IBAction func AC(_ sender: Any) {
         result.text = ""
         re = 0
+       
         
         
         
